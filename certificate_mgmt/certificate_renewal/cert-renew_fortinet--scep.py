@@ -178,7 +178,7 @@ if True: # get inside interface IP, check existing cert expiry date, generate ce
         days_rem = delta.days
 
         if days_rem > 30:
-            print(f"There are {days_rem} remaining before certificate expiration.")
+            print(f"There are {days_rem} days remaining before certificate expiration.")
             print("Exiting script...")
             sys.exit()
         
