@@ -28,9 +28,9 @@ if True: # set variables
     cert_url = f'http://{ca_ip}/certsrv/mscep/mscep.dll'
     cert_country = '''+2-DIG COUNTRY FOR CERT HERE+'''
     cert_state = '''+STATE FOR CERT HERE+'''
-    cert_city = '''CITY FOR CERT HERE+'''
-    cert_org = '''ORGANIZATION FOR CERT HERE+'''
-    cert_email = '''EMAIL FOR CERT HERE+'''
+    cert_city = '''+CITY FOR CERT HERE+'''
+    cert_org = '''+ORGANIZATION FOR CERT HERE+'''
+    cert_email = '''+EMAIL FOR CERT HERE+'''
 if True: # define find if string contains numbers function
     def hasNumbers(x):
         return any(char.isdigit() for char in x)
