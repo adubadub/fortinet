@@ -25,9 +25,9 @@ if True: # set variables
     cert_url = f'http://{ca_ip}/certsrv/mscep/mscep.dll'
     cert_country = '''+2-DIG COUNTRY FOR CERT HERE+'''
     cert_state = '''+STATE FOR CERT HERE+'''
-    cert_city = '''CITY FOR CERT HERE+'''
-    cert_org = '''ORGANIZATION FOR CERT HERE+'''
-    cert_email = '''EMAIL FOR CERT HERE+'''
+    cert_city = '''+CITY FOR CERT HERE+'''
+    cert_org = '''+ORGANIZATION FOR CERT HERE+'''
+    cert_email = '''+EMAIL FOR CERT HERE+'''
     todays_date = now
 if True: # define find if string contains numbers function
     def hasNumbers(x):
@@ -145,7 +145,7 @@ if True: # check vpn, ospf and generate certificate (fortinet)
 
                 else:
                     print("Creating new certificate...")
-                    cmd2 = f'execute vpn certificate local generate rsa {date_format} 2048 {hostname}.{domain} {cert_country} {cert_state} {cert_city} {cert_org} "" {cert_email} {hostname} {cert_url} "" {src_ip} {ca_cn}'
+                    cmd2 = f'execute vpn certificate local generate rsa {date_format} 2048 {hostname}.{domain} {cert_country} {cert_state} {cert_city} "{cert_org}" "" {cert_email} {hostname} {cert_url} "" {src_ip} "{ca_cn}"'
                     output = channel.send_command(cmd2)
 
             commandset = [
