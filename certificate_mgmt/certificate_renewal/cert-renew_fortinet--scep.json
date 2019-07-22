@@ -1,0 +1,15 @@
+{
+    "HOSTNAME":             "+DEVICE HOSTNAME HERE+",
+    "DEVICE_DOMAIN":        "+DEVICE SUBDOMAIN HERE+",
+    "DEVICE_IP":            "+DEVICE IP HERE+",
+    "DEVICE_UN":            "+DEVICE UN HERE+",
+    "DEVICE_PWD":           "+DEVICE PWD HERE+",
+    "DEVICE_INSIDE_INT":    "+DEVICE INSIDE INTERFACE HERE+",
+    "CA_IP":                "+CA IP HERE+",
+    "CA_CN":                "+CA COMMON NAME HERE+",
+    "CERT_COUNTRY":         "+2-DIGIT COUNTRY FOR CERTIFICATE HERE+",
+    "CERT_STATE":           "+STATE/MUNI FOR CERTIFICATE HERE+",
+    "CERT_CITY":            "+CITY FOR CERTIFICATE HERE+",
+    "CERT_ORG":             "+ORGANIZATION FOR CERTIFICATE HERE+",
+    "CERT_EMAIL":           "+EMAIL ADDR FOR CERTIFICATE HERE+"
+}
