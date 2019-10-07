@@ -4,7 +4,7 @@ if True: # imports
     import subprocess
     import sys
 if True: # set environment and json variables
-    with open('aws_deploy_upgrade.json') as f:
+    with open('cloud_deploy_upgrade.json') as f:
         js = json.load(f)
         device_name         = js['DEVICE_NAME']
         cloud_onprem        = js['CLOUD']
