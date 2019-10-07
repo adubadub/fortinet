@@ -1,0 +1,6 @@
+{
+    "DEVICE_NAME":      "+DEVICE NAME HERE+",
+    "CLOUD":            "+CLOUD PROVIDER (AWS, Azure, NA) HERE+",
+    "REGION":           "+CLOUD REGION (us-east-1, az name) HERE+",
+    "ACCOUNT":          "+LOCAL DIR CLOUD PROVIDER CLI PROFILE/ACCOUNT HERE+"
+}
